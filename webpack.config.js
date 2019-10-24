@@ -5,7 +5,9 @@ module.exports={
         filename:'bundle.js'
     },
     devServer:{
-        contentBase:"./public"
+        contentBase:"./public",
+        inline:true,
+        historyApiFallback:true,
     },
     module: {
         rules: [
