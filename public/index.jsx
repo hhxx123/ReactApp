@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Links from './link.jsx'
+import Links from './jsx/link.jsx';
+import indexCss from './css/index.less';
 class Hello extends React.Component {
     render() {
         return (
