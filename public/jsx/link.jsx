@@ -11,6 +11,7 @@ export default class Link extends React.Component{
                     <Route exact path="/page" component={Page} />
                 </Switch>
             </BrowserRouter>
+
         )
     }
 }

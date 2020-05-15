@@ -33,7 +33,7 @@ export default class Nav extends React.Component {
             <div>
                 <div style={{float:"left",width:"30%"}}>
                     {this.state.navLeftItems.map((item,index) =>{
-                        return <div key={index} onClick={this.handleGoPage.bind(this,item.url)}>{item.title}</div>
+                        return <div key={index} onClick={this.handleGoPage.bind(this,item.url)}>111{item.title}</div>
                     })}
                 </div>
                 <div style={{float:"left"}}>
