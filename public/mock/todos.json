@@ -1,0 +1,17 @@
+[
+    {
+       "id":"1",
+       "text":"learn",
+       "completed":false
+    },
+    {
+        "id":"2",
+        "text":"about",
+        "completed":false
+    },
+    {
+        "id":"3",
+        "text":"react",
+        "completed":false
+    }
+]
